@@ -1,0 +1,70 @@
+DY
+0Tag bin 
+      NoUnc          
+0.1619103       
+      Up/Up    %diff      
+0.1563547   -0.0343128   
+      Down/Down    %diff      
+0.1676931   0.0357161   
+      Up/Down    %diff      
+0.1683806   0.0399623   
+      Down/Up    %diff      
+0.1557163   -0.0382558   
+1Tag bin 
+      NoUnc          
+0.107439       
+      Up/Up    %diff      
+0.1044604   -0.0277236   
+      Down/Down    %diff      
+0.1114415   0.0372537   
+      Up/Down    %diff      
+0.1184518   0.1025028   
+      Down/Up    %diff      
+0.0982781   -0.0852661   
+2Tag bin 
+      NoUnc          
+1.2682517       
+      Up/Up    %diff      
+1.3891019   0.0952888   
+      Down/Down    %diff      
+1.9724562   0.5552561   
+      Up/Down    %diff      
+1.9724562   0.5552561   
+      Down/Up    %diff      
+1.3891019   0.0952888   
+
+DY
+0Tag bin 
+      NoUnc          
+0.1619103       
+      Up/Up    %diff      
+0.1563547   -0.0343128   
+      Down/Down    %diff      
+0.1676931   0.0357161   
+      Up/Down    %diff      
+0.1683806   0.0399623   
+      Down/Up    %diff      
+0.1557163   -0.0382558   
+1Tag bin 
+      NoUnc          
+0.107439       
+      Up/Up    %diff      
+0.1044604   -0.0277236   
+      Down/Down    %diff      
+0.1114415   0.0372537   
+      Up/Down    %diff      
+0.1184518   0.1025028   
+      Down/Up    %diff      
+0.0982781   -0.0852661   
+2Tag bin 
+      NoUnc          
+1.2682517       
+      Up/Up    %diff      
+1.3891019   0.0952888   
+      Down/Down    %diff      
+1.9724562   0.5552561   
+      Up/Down    %diff      
+1.9724562   0.5552561   
+      Down/Up    %diff      
+1.3891019   0.0952888   
+
