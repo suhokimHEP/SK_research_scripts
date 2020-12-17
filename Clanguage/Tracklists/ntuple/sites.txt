@@ -1,0 +1,4 @@
+T0_CH_CERN_Export
+T0_CH_CERN_MSS
+T0_CH_CERN_Tape
+T1_US_FNAL_Disk

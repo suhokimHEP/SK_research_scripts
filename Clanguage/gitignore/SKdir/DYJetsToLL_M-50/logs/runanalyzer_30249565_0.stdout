@@ -1,0 +1,1913 @@
+[FERMIHTC-SINGULARITY]: INFO -- No Singulariy image specified
+[FERMIHTC-SINGULARITY]: INFO -- Running job on the host machine
+
+[FERMIHTC-SINGULARITY]: INFO -- Running ./condor_exec.exe DYJetsToLL_M-50 . 0 400 0
+TEST
+subject   : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=suho/CN=833637/CN=Suho Kim/CN=4118503653
+issuer    : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=suho/CN=833637/CN=Suho Kim
+identity  : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=suho/CN=833637/CN=Suho Kim
+type      : RFC compliant proxy
+strength  : 1024 bits
+path      : /storage/local/data1/condor/execute/dir_30162/x509up_u54978
+timeleft  : 11:43:34
+key usage : Digital Signature, Key Encipherment
+=== VO cms extension information ===
+VO        : cms
+subject   : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=suho/CN=833637/CN=Suho Kim
+issuer    : /DC=ch/DC=cern/OU=computers/CN=voms2.cern.ch
+attribute : /cms/Role=NULL/Capability=NULL
+timeleft  : 11:43:34
+uri       : voms2.cern.ch:15002
+total 316
+-rw-r--r-- 1 skim2 fnalgrid 156639 Dec 11 02:53 DYJetsToLL_M-50.list
+-rw-r--r-- 1 skim2 fnalgrid      0 Dec 11 02:53 _condor_stderr
+-rw-r--r-- 1 skim2 fnalgrid    963 Dec 11 02:53 _condor_stdout
+-rw-r--r-- 1 skim2 fnalgrid 126569 Dec 11 02:53 cms_setup.tar.gz
+-rwxr-xr-x 1 skim2 fnalgrid    938 Dec 11 02:53 condor_exec.exe
+-rwxr-xr-x 1 skim2 fnalgrid      0 Dec 11 02:53 docker_stderror
+-rw-r--r-- 1 skim2 fnalgrid   4719 Dec 11 02:53 drawer.C
+drwx------ 2 skim2 fnalgrid   4096 Dec 11 02:53 tmp
+drwx------ 3 skim2 fnalgrid   4096 Dec 11 02:53 var
+-rw------- 1 skim2 fnalgrid   9812 Dec 11 02:53 x509up_u54978
+DONE
+CMSSW_8_1_0/
+CMSSW_8_1_0/.SCRAM/
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_serialization
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/heppdt
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootgpad
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/giflib
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-h5py
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libjpeg-turbo
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/professor
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/sqlite
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/qtdesigner
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-prettytable
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootgeom
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootmathcore
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/frontier_client
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/evtgen
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pydata
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_regex
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/oracle
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/photos
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pyminuit2
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tkonlinesw
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gnuplot
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gdb
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/herwig
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/openloops
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/lhapdf
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/sip
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-six
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/root_interface
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-requests
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/python-ldap
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libuuid
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/iwyu-cxxcompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/davix
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-sqlalchemy
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/roothistmatrix
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_iostreams
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootcore
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pygithub
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/distcc-ccompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-dxr
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/curl
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rooteg
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cvs2git
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/llvm-analyzer-cxxcompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/yoda
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pythia6_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootcling
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/fftw3
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cascade_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cgal
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/git
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pcre
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pyclang
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-lint
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gsl
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/photos_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-numpy
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rivet
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/roothtml
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pycurl
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/scons
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/classlib
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/utm
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pythia8
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-scipy
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tauola_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gcc-atomic
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootrflx
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/sloccount
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/openldap
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libxml2
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/ccache-ccompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/photospp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/dcap
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/das_client
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-cycler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/xrootd
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-ordereddict
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_test
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/llvm-cxxcompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/eigen
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/distcc-cxxcompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/ccache-f77compiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/vdt
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-python-dateutil
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tkonlineswdb
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cgalimageio
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/sherpa
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/lcov
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libpng
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/charybdis
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootpy
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/mcdb
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/toprex
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/python
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/sockets
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/sigcpp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-setuptools
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/castor_header
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/llvm
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootthread
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-cjson
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootxmlio
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gcc-cxxcompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/distcc-f77compiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootminuit2
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_header
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/dpm
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/csctrackfinderemulation
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/zlib
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/glimpse
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/roostats
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/hepmc_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/alpgen
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_python
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libtiff
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-cx-oracle
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-matplotlib
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/ktjet
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/geant4
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/jimmy
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_signals
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-jinja
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/roofitcore
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/qt3support
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cython
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/clhep
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootmath
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/md5
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/thepeg
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/x11
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pythia6
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pygments
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/geant4-parfullcms
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/fftjet
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/file
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/herwigpp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-root_numpy
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/lapack
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libffi
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libungif
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_program_options
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/ccache-cxxcompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/geant4core
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-ipython
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tbb
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/opengl
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pandas
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/freetype
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/root
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/coral
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cascade
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pyparsing
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootrio
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tauolapp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-schema
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_filesystem
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/fastjet-contrib-archive
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootgraphics
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tauola
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/geant4data
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/yaml-cpp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/valgrind
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gcc-ccompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/roottmva
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-markupsafe
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/glibc
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootinteractive
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/castor
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/fastjet
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/jimmy_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/xz
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/boost_system
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-futures
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/fastjet-contrib
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/vdt_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pytz
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/clhepheader
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libhepml
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/root_cxxdefaults
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/libxslt
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/dbs-client
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cmsswdata
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/xerces-c
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-docopt
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootfoam
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tcmalloc
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tinyxml
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/histogrammar
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/tcmalloc_minimal
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/geant4static
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootspectrum
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/qt
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pysqlite
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/blackhat
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/toprex_headers
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/roofit
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootminuit
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/millepede
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootphysics
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-pyyaml
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pyqt
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/graphviz
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/protobuf
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-scikit-learn
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gcc-f77compiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootmlp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/dmtcp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/qd
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/expat
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/qtbase
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/bz2lib
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/igprof
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-dablooms
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/llvm-analyzer-ccompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gdbm
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/hdf5
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/oracleocci
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/cppunit
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootrgl
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/self
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gmake
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/openssl
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/hector
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-parsimonious
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/madgraph5amcatnlo
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/histfactory
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/llvm-f77compiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/db6
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/hepmc
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootxml
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/mctester
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/pacparser
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rooteve
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/mpfr
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootguihtml
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/llvm-ccompiler
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootgeompainter
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/py2-networkx
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/starlight
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/jemalloc
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/doxygen
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/rootrint
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/gmp
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/geant4vis
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/timestamps/meschach
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/Environment
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/chkarch
+CMSSW_8_1_0/.SCRAM/slc6_amd64_gcc530/ToolCache.db.gz
+CMSSW_8_1_0/.SCRAM/Environment
+CMSSW_8_1_0/config/
+CMSSW_8_1_0/config/toolbox/
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pyyaml.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/csctrackfinderemulation.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libjpeg-turbo.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rooteve.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/dmtcp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libxslt.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootcore.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/geant4static.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cascade_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-cx-oracle.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/CSCTrackFinderEmulation.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootrflx.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/jimmy.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/vdt.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/sloccount.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootfoam.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootphysics.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/sip.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tkonlineswdb.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootinteractive.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootrgl.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-schema.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootrio.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/madgraph5amcatnlo.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-requests.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/ccache-ccompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pyqt.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/root_cxxdefaults.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/qd.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/qtbase.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/roofitcore.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rooteg.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/alpgen.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gdb.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/xrootd.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/histfactory.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gnuplot.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tinyxml.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tcmalloc_minimal.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootmathcore.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootthread.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/bz2lib.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootcling.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pandas.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/fftw3.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/scons.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootminuit.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/jimmy_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_signals.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-python-dateutil.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/hector.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/coral.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootmlp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/llvm-f77compiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootxmlio.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/ktjet.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/roottmva.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/sockets.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/histogrammar.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cmsswdata.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tauola_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libxml2.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gdbm.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/doxygen.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cgal.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/dcap.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/geant4-parfullcms.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/igprof.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/python-ldap.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_iostreams.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/llvm-analyzer-ccompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/classlib.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/openssl.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/qtdesigner.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/lapack.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/ccache-cxxcompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cvs2git.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gcc-cxxcompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pyclang.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/davix.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tcmalloc.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-parsimonious.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tauola.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootpy.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/professor.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pygments.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/blackhat.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/curl.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/yaml-cpp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/oracleocci.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/protobuf.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootgpad.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootguihtml.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-root_numpy.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/vdt_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootminuit2.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pytz.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cascade.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/herwigpp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libjpg.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-ordereddict.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-futures.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tauolapp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/eigen.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/heppdt.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cgalimageio.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/db6.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/valgrind.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-sqlalchemy.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/evtgen.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gcc-atomic.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pycurl.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_regex.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-networkx.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/freetype.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/millepede.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/photospp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/toprex_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/roothistmatrix.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-jinja.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/dpm.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/fastjet-contrib.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pythia6_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/glibc.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pygithub.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/hdf5.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-ipython.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pysqlite.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libuuid.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cppunit.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/jemalloc.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gmp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/openldap.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/mctester.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/starlight.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pcre.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/git.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rivet.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tbb.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/distcc-f77compiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/yoda.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_header.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/clhep.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/llvm-ccompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-numpy.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pyminuit2.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libffi.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gcc-ccompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/zlib.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/tkonlinesw.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/llvm-cxxcompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/das_client.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/photos.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/iwyu-cxxcompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/llvm-analyzer-cxxcompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/thepeg.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/giflib.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/geant4data.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/glimpse.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/qt3support.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/distcc-cxxcompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-cjson.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/md5.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-cycler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/qt.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/mcdb.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/x11.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-prettytable.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-setuptools.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/root_interface.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/roostats.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/xerces-c.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/openloops.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gmake.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootxml.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_system.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/frontier_client.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootgraphics.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_serialization.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libhepml.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/geant4.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-scipy.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/cython.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pacparser.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pythia6.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-pyparsing.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_filesystem.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/fastjet.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-scikit-learn.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/opengl.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/lcov.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/meschach.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-markupsafe.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-docopt.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/geant4core.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/expat.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_test.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/utm.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/photos_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootmath.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/roofit.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-dablooms.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/fftjet.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gcc-f77compiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-h5py.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-dxr.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/dbs-client.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/hepmc_headers.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/distcc-ccompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/geant4vis.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libpng.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootgeom.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/castor_header.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/toprex.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/gsl.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_python.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-PyYAML.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/sigcpp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/xz.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/lhapdf.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/python.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/fastjet-contrib-archive.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/oracle.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootrint.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/sherpa.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/llvm.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootgeompainter.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/castor.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/herwig.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-six.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pydata.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/roothtml.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libtiff.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-matplotlib.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/pythia8.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/ccache-f77compiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/sqlite.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/rootspectrum.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/root.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/clhepheader.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/graphviz.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/boost_program_options.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/hepmc.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/py2-lint.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/file.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/mpfr.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/charybdis.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/selected/libungif.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/opencl.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/csctrackfinderemulation.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/icc-f77compiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/libjpeg-turbo.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/icc-ccompiler.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/cuda.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/py2-pyyaml.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/opencl-cpp.xml
+CMSSW_8_1_0/config/toolbox/slc6_amd64_gcc530/tools/available/icc-cxxcompiler.xml
+CMSSW_8_1_0/config/SCRAM/
+CMSSW_8_1_0/config/SCRAM/GMake/
+CMSSW_8_1_0/config/SCRAM/GMake/Makefile.rules
+CMSSW_8_1_0/config/SCRAM/GMake/Makefile
+CMSSW_8_1_0/config/SCRAM/GMake/Makefile.bigedm.rules
+CMSSW_8_1_0/config/SCRAM/Plugins/
+CMSSW_8_1_0/config/SCRAM/Plugins/BuildRules.pm
+CMSSW_8_1_0/config/SCRAM/createSymLinks.pl
+CMSSW_8_1_0/config/SCRAM/find-deps-tree.pl
+CMSSW_8_1_0/config/SCRAM/EdmPluginVisibility.lds
+CMSSW_8_1_0/config/SCRAM/projectInfo.pl
+CMSSW_8_1_0/config/SCRAM/projectAreaRename.pl
+CMSSW_8_1_0/config/SCRAM/linkexternal.pl
+CMSSW_8_1_0/config/SCRAM/createPyInitFiles.pl
+CMSSW_8_1_0/config/SCRAM/findDependencies.pl
+CMSSW_8_1_0/config/SCRAM/updateToolMK.pl
+CMSSW_8_1_0/config/BuildFile.xml
+CMSSW_8_1_0/config/SCRAM_ExtraBuildRule.pm
+CMSSW_8_1_0/config/updateConfig.pl
+CMSSW_8_1_0/config/genClassesH
+CMSSW_8_1_0/config/boot.xml
+CMSSW_8_1_0/config/bootsrc.xml
+CMSSW_8_1_0/config/dxr.config
+CMSSW_8_1_0/config/fixdocs.sh
+CMSSW_8_1_0/config/ChangeLog
+CMSSW_8_1_0/config/Self.xml
+CMSSW_8_1_0/config/config_tag
+CMSSW_8_1_0/config/scram_version
+CMSSW_8_1_0/config/scram_basedir
+CMSSW_8_1_0/src/
+CMSSW_8_1_0/lib/
+CMSSW_8_1_0/lib/slc6_amd64_gcc530/
+CMSSW_8_1_0/bin/
+CMSSW_8_1_0/bin/slc6_amd64_gcc530/
+CMSSW_8_1_0/test/
+CMSSW_8_1_0/test/slc6_amd64_gcc530/
+CMSSW_8_1_0/logs/
+CMSSW_8_1_0/logs/slc6_amd64_gcc530/
+CMSSW_8_1_0/objs/
+CMSSW_8_1_0/objs/slc6_amd64_gcc530/
+CMSSW_8_1_0/biglib/
+CMSSW_8_1_0/biglib/slc6_amd64_gcc530/
+CMSSW_8_1_0/cfipython/
+CMSSW_8_1_0/cfipython/slc6_amd64_gcc530/
+CMSSW_8_1_0/include/
+CMSSW_8_1_0/doc/
+CMSSW_8_1_0/python/
+CMSSW_8_1_0/tmp/
+CMSSW_8_1_0/tmp/slc6_amd64_gcc530/
+DYJetsToLL_M-50
+.
+0
+400
+0
+
+Processing drawer.C("DYJetsToLL_M-50", ".", "0","400","0")...
+Running sample: DYJetsToLL_M-50
+Tsample: DYJetsToLL_M-50
+TInfiles: 400
+Input List Name: ./DYJetsToLL_M-50.list
+Output File Name: DYJetsToLL_M-50_0
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_1.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_1.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_10.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_10.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_100.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_100.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_11.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_11.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_12.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_12.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_13.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_13.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_14.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_14.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_15.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_15.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_16.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_16.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_17.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_17.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_18.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_18.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_19.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_19.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_2.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_2.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_20.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_20.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_21.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_21.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_22.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_22.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_23.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_23.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_24.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_24.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_25.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_25.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_26.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_26.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_27.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_27.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_28.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_28.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_29.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_29.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_30.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_30.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_31.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_31.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_32.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_32.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_33.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_33.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_34.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_34.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_35.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_35.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_36.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_36.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_37.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_37.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_38.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_38.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_39.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_39.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_4.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_4.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_40.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_40.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_41.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_41.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_42.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_42.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_43.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_43.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_44.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_44.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_45.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_45.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_46.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_46.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_47.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_47.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_48.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_48.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_49.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_49.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_5.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_5.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_50.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_50.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_51.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_51.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_52.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_52.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_53.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_53.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_54.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_54.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_55.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_55.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_56.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_56.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_57.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_57.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_58.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_58.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_59.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_59.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_6.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_6.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_60.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_60.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_61.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_61.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_62.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_62.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_63.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_63.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_64.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_64.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_65.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_65.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_66.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_66.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_67.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_67.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_68.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_68.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_69.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_69.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_7.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_7.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_70.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_70.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_71.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_71.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_72.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_72.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_73.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_73.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_74.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_74.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_75.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_75.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_76.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_76.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_77.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_77.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_78.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_78.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_79.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_79.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_8.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_8.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_80.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_80.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_81.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_81.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_82.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_82.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_83.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_83.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_84.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_84.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_85.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_85.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_86.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_86.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_87.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_87.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_88.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_88.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_89.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_89.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_9.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_9.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_90.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_90.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_91.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_91.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_92.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_92.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_93.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_93.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_94.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_94.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_95.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_95.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_96.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_96.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_97.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_97.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_98.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_98.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_99.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_002625/0000/lldjntuple_mc_AOD_99.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_1.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_1.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_10.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_10.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_100.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_100.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_101.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_101.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_102.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_102.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_103.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_103.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_104.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_104.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_105.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_105.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_106.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_106.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_107.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_107.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_108.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_108.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_109.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_109.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_11.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_11.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_110.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_110.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_111.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_111.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_112.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_112.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_113.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_113.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_114.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_114.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_115.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_115.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_116.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_116.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_117.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_117.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_118.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_118.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_119.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_119.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_12.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_12.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_120.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_120.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_121.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_121.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_122.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_122.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_123.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_123.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_124.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_124.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_125.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_125.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_126.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_126.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_127.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_127.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_128.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_128.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_129.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_129.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_13.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_13.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_130.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_130.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_131.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_131.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_132.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_132.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_133.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_133.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_134.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_134.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_135.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_135.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_136.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_136.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_137.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_137.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_138.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_138.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_139.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_139.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_14.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_14.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_140.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_140.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_141.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_141.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_142.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_142.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_143.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_143.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_144.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_144.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_145.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_145.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_146.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_146.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_147.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_147.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_148.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_148.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_149.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_149.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_15.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_15.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_150.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_150.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_151.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_151.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_152.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_152.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_153.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_153.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_154.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_154.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_155.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_155.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_156.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_156.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_157.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_157.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_158.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_158.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_159.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_159.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_16.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_16.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_160.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_160.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_161.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_161.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_162.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_162.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_163.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_163.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_164.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_164.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_165.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_165.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_166.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_166.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_167.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_167.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_168.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_168.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_169.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_169.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_17.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_17.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_170.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_170.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_171.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_171.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_172.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_172.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_173.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_173.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_174.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_174.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_175.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_175.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_176.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_176.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_177.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_177.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_178.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_178.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_179.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_179.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_18.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_18.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_180.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_180.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_181.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_181.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_182.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_182.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_183.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_183.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_184.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_184.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_185.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_185.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_186.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_186.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_187.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_187.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_188.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_188.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_189.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_189.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_19.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_19.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_190.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_190.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_191.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_191.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_192.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_192.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_193.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_193.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_194.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_194.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_195.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_195.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_196.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_196.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_197.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_197.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_198.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_198.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_199.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_199.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_2.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_2.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_20.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_20.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_200.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_200.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_201.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_201.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_202.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_202.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_203.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_203.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_204.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_204.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_205.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_205.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_206.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_206.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_207.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_207.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_208.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_208.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_209.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_209.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_21.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_21.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_210.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_210.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_211.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_211.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_212.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_212.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_213.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_213.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_214.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_214.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_215.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_215.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_216.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_216.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_217.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_217.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_218.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_218.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_219.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_219.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_22.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_22.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_220.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_220.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_221.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_221.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_222.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_222.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_223.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_223.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_224.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_224.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_225.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_225.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_226.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_226.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_227.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_227.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_228.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_228.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_229.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_229.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_23.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_23.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_230.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_230.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_231.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_231.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_232.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_232.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_233.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_233.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_234.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_234.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_235.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_235.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_236.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_236.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_237.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_237.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_238.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_238.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_239.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_239.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_24.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_24.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_240.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_240.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_241.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_241.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_242.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_242.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_243.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_243.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_244.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_244.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_245.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_245.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_246.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_246.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_247.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_247.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_248.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_248.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_249.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_249.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_25.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_25.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_250.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_250.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_251.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_251.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_252.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_252.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_253.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_253.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_254.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_254.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_255.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_255.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_256.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_256.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_257.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_257.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_258.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_258.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_259.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_259.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_26.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_26.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_260.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_260.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_261.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_261.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_262.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_262.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_263.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_263.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_264.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_264.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_265.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_265.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_266.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_266.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_267.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_267.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_268.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_268.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_269.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_269.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_27.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_27.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_270.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_270.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_271.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_271.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_272.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_272.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_273.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_273.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_274.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_274.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_275.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_275.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_276.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_276.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_277.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_277.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_278.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_278.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_279.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_279.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_28.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_28.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_280.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_280.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_281.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_281.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_282.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_282.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_283.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_283.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_284.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_284.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_285.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_285.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_286.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_286.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_287.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_287.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_288.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_288.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_289.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_289.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_29.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_29.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_290.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_290.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_291.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_291.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_292.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_292.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_293.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_293.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_294.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_294.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_295.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_295.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_296.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_296.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_297.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_297.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_298.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_298.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_299.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_299.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_30.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_30.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_300.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_300.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_301.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_301.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_302.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_302.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_303.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_303.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_304.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_304.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_305.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_305.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_306.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_306.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_307.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_307.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_308.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_308.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_309.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_309.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_31.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_31.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_310.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_310.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_311.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_311.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_312.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_312.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_313.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_313.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_314.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_314.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_315.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_315.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_316.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_316.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_317.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_317.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_318.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_318.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_319.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_319.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_32.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_32.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_320.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_320.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_321.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_321.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_322.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_322.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_323.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_323.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_324.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_324.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_325.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_325.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_326.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_326.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_327.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_327.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_328.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_328.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_329.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_329.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_33.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_33.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_330.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_330.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_331.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_331.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_332.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_332.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_333.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_333.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_334.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_334.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_335.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_335.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_336.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_336.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_337.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_337.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_338.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_338.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_339.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_339.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_34.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_34.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_340.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_340.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_341.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_341.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_342.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_342.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_343.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_343.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_344.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_344.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_345.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_345.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_346.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_346.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_347.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_347.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_348.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_348.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_349.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_349.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_35.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_35.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_350.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_350.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_351.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_351.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_352.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_352.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_353.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_353.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_354.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_354.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_355.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_355.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_356.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_356.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_357.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_357.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_358.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_358.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_359.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_359.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_36.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_36.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_360.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_360.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_361.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_361.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_362.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_362.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_363.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_363.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_364.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_364.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_365.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_365.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_366.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_366.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_367.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_367.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_368.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_368.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_369.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_369.root
+raw inputline: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_37.root
+ Inputfile: /store/group/lpchbb/LLDJntuples/Trackstudy/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/crab_DY50_1/201124_170256/0000/lldjntuple_mc_AOD_37.root
+where am I?
+4981807
+ entry 0
+ entry 10000
+ entry 20000
+ entry 30000
+ entry 40000
+ entry 50000
+ entry 60000
+ entry 70000
+ entry 80000
+ entry 90000
+ entry 100000
+ entry 110000
+ entry 120000
+ entry 130000
+ entry 140000
+ entry 150000
+ entry 160000
+ entry 170000
+ entry 180000
+ entry 190000
+ entry 200000
+ entry 210000
+ entry 220000
+ entry 230000
+ entry 240000
+ entry 250000
+ entry 260000
+ entry 270000
+ entry 280000
+ entry 290000
+ entry 300000
+ entry 310000
+ entry 320000
+ entry 330000
+ entry 340000
+ entry 350000
+ entry 360000
+ entry 370000
+ entry 380000
+ entry 390000
+ entry 400000
+ entry 410000
+ entry 420000
+ entry 430000
+ entry 440000
+ entry 450000
+ entry 460000
+ entry 470000
+ entry 480000
+ entry 490000
+ entry 500000
+ entry 510000
+ entry 520000
+ entry 530000
+ entry 540000
+ entry 550000
+ entry 560000
+ entry 570000
+ entry 580000
+ entry 590000
+ entry 600000
+ entry 610000
+ entry 620000
+ entry 630000
+ entry 640000
+ entry 650000
+ entry 660000
+ entry 670000
+ entry 680000
+ entry 690000
+ entry 700000
+ entry 710000
+ entry 720000
+ entry 730000
+ entry 740000
+ entry 750000
+ entry 760000
+ entry 770000
+ entry 780000
+ entry 790000
+ entry 800000
+ entry 810000
+ entry 820000
+ entry 830000
+ entry 840000
+ entry 850000
+ entry 860000
+ entry 870000
+ entry 880000
+ entry 890000
+ entry 900000
+ entry 910000
+ entry 920000
+ entry 930000
+ entry 940000
+ entry 950000
+ entry 960000
+ entry 970000
+ entry 980000
+ entry 990000
+ entry 1000000
+ entry 1010000
+ entry 1020000
+ entry 1030000
+ entry 1040000
+ entry 1050000
+ entry 1060000
+ entry 1070000
+ entry 1080000
+ entry 1090000
+ entry 1100000
+ entry 1110000
+ entry 1120000
+ entry 1130000
+ entry 1140000
+ entry 1150000
+ entry 1160000
+ entry 1170000
+ entry 1180000
+ entry 1190000
+ entry 1200000
+ entry 1210000
+ entry 1220000
+ entry 1230000
+ entry 1240000
+ entry 1250000
+ entry 1260000
+ entry 1270000
+ entry 1280000
+ entry 1290000
+ entry 1300000
+ entry 1310000
+ entry 1320000
+ entry 1330000
+ entry 1340000
+ entry 1350000
+ entry 1360000
+ entry 1370000
+ entry 1380000
+ entry 1390000
+ entry 1400000
+ entry 1410000
+ entry 1420000
+ entry 1430000
+ entry 1440000
+ entry 1450000
+ entry 1460000
+ entry 1470000
+ entry 1480000
+ entry 1490000
+ entry 1500000
+ entry 1510000
+ entry 1520000
+ entry 1530000
+ entry 1540000
+ entry 1550000
+ entry 1560000
+ entry 1570000
+ entry 1580000
+ entry 1590000
+ entry 1600000
+ entry 1610000
+ entry 1620000
+ entry 1630000
+ entry 1640000
+ entry 1650000
+ entry 1660000
+ entry 1670000
+ entry 1680000
+ entry 1690000
+ entry 1700000
+ entry 1710000
+ entry 1720000
+ entry 1730000
+ entry 1740000
+ entry 1750000
+ entry 1760000
+ entry 1770000
+ entry 1780000
+ entry 1790000
+ entry 1800000
+ entry 1810000
+ entry 1820000
+ entry 1830000
+ entry 1840000
+ entry 1850000
+ entry 1860000
+ entry 1870000
+ entry 1880000
+ entry 1890000
+ entry 1900000
+ entry 1910000
+ entry 1920000
+ entry 1930000
+ entry 1940000
+ entry 1950000
+ entry 1960000
+ entry 1970000
+ entry 1980000
+ entry 1990000
+ entry 2000000
+ entry 2010000
+ entry 2020000
+ entry 2030000
+ entry 2040000
+ entry 2050000
+ entry 2060000
+ entry 2070000
+ entry 2080000
+ entry 2090000
+ entry 2100000
+ entry 2110000
+ entry 2120000
+ entry 2130000
+ entry 2140000
+ entry 2150000
+ entry 2160000
+ entry 2170000
+ entry 2180000
+ entry 2190000
+ entry 2200000
+ entry 2210000
+ entry 2220000
+ entry 2230000
+ entry 2240000
+ entry 2250000
+ entry 2260000
+ entry 2270000
+ entry 2280000
+ entry 2290000
+ entry 2300000
+ entry 2310000
+ entry 2320000
+ entry 2330000
+ entry 2340000
+ entry 2350000
+ entry 2360000
+ entry 2370000
+ entry 2380000
+ entry 2390000
+ entry 2400000
+ entry 2410000
+ entry 2420000
+ entry 2430000
+ entry 2440000
+ entry 2450000
+ entry 2460000
+ entry 2470000
+ entry 2480000
+ entry 2490000
+ entry 2500000
+ entry 2510000
+ entry 2520000
+ entry 2530000
+ entry 2540000
+ entry 2550000
+ entry 2560000
+ entry 2570000
+ entry 2580000
+ entry 2590000
+ entry 2600000
+ entry 2610000
+ entry 2620000
+ entry 2630000
+ entry 2640000
+ entry 2650000
+ entry 2660000
+ entry 2670000
+ entry 2680000
+ entry 2690000
+ entry 2700000
+ entry 2710000
+ entry 2720000
+ entry 2730000
+ entry 2740000
+ entry 2750000
+ entry 2760000
+ entry 2770000
+ entry 2780000
+ entry 2790000
+ entry 2800000
+ entry 2810000
+ entry 2820000
+ entry 2830000
+ entry 2840000
+ entry 2850000
+ entry 2860000
+ entry 2870000
+ entry 2880000
+ entry 2890000
+ entry 2900000
+ entry 2910000
+ entry 2920000
+ entry 2930000
+ entry 2940000
+ entry 2950000
+ entry 2960000
+ entry 2970000
+ entry 2980000
+ entry 2990000
+ entry 3000000
+ entry 3010000
+ entry 3020000
+ entry 3030000
+ entry 3040000
+ entry 3050000
+ entry 3060000
+ entry 3070000
+ entry 3080000
+ entry 3090000
+ entry 3100000
+ entry 3110000
+ entry 3120000
+ entry 3130000
+ entry 3140000
+ entry 3150000
+ entry 3160000
+ entry 3170000
+ entry 3180000
+ entry 3190000
+ entry 3200000
+ entry 3210000
+ entry 3220000
+ entry 3230000
+ entry 3240000
+ entry 3250000
+ entry 3260000
+ entry 3270000
+ entry 3280000
+ entry 3290000
+ entry 3300000
+ entry 3310000
+ entry 3320000
+ entry 3330000
+ entry 3340000
+ entry 3350000
+ entry 3360000
+ entry 3370000
+ entry 3380000
+ entry 3390000
+ entry 3400000
+ entry 3410000
+ entry 3420000
+ entry 3430000
+ entry 3440000
+ entry 3450000
+ entry 3460000
+ entry 3470000
+ entry 3480000
+ entry 3490000
+ entry 3500000
+ entry 3510000
+ entry 3520000
+ entry 3530000
+ entry 3540000
+ entry 3550000
+ entry 3560000
+ entry 3570000
+ entry 3580000
+ entry 3590000
+ entry 3600000
+ entry 3610000
+ entry 3620000
+ entry 3630000
+ entry 3640000
+ entry 3650000
+ entry 3660000
+ entry 3670000
+ entry 3680000
+ entry 3690000
+ entry 3700000
+ entry 3710000
+ entry 3720000
+ entry 3730000
+ entry 3740000
+ entry 3750000
+ entry 3760000
+ entry 3770000
+ entry 3780000
+ entry 3790000
+ entry 3800000
+ entry 3810000
+ entry 3820000
+ entry 3830000
+ entry 3840000
+ entry 3850000
+ entry 3860000
+ entry 3870000
+ entry 3880000
+ entry 3890000
+ entry 3900000
+ entry 3910000
+ entry 3920000
+ entry 3930000
+ entry 3940000
+ entry 3950000
+ entry 3960000
+ entry 3970000
+ entry 3980000
+ entry 3990000
+ entry 4000000
+ entry 4010000
+ entry 4020000
+ entry 4030000
+ entry 4040000
+ entry 4050000
+ entry 4060000
+ entry 4070000
+ entry 4080000
+ entry 4090000
+ entry 4100000
+ entry 4110000
+ entry 4120000
+ entry 4130000
+ entry 4140000
+ entry 4150000
+ entry 4160000
+ entry 4170000
+ entry 4180000
+ entry 4190000
+ entry 4200000
+ entry 4210000
+ entry 4220000
+ entry 4230000
+ entry 4240000
+ entry 4250000
+ entry 4260000
+ entry 4270000
+ entry 4280000
+ entry 4290000
+ entry 4300000
+ entry 4310000
+ entry 4320000
+ entry 4330000
+ entry 4340000
+ entry 4350000
+ entry 4360000
+ entry 4370000
+ entry 4380000
+ entry 4390000
+ entry 4400000
+ entry 4410000
+ entry 4420000
+ entry 4430000
+ entry 4440000
+ entry 4450000
+ entry 4460000
+ entry 4470000
+ entry 4480000
+ entry 4490000
+ entry 4500000
+ entry 4510000
+ entry 4520000
+ entry 4530000
+ entry 4540000
+ entry 4550000
+ entry 4560000
+ entry 4570000
+ entry 4580000
+ entry 4590000
+ entry 4600000
+ entry 4610000
+ entry 4620000
+ entry 4630000
+ entry 4640000
+ entry 4650000
+ entry 4660000
+ entry 4670000
+ entry 4680000
+ entry 4690000
+ entry 4700000
+ entry 4710000
+ entry 4720000
+ entry 4730000
+ entry 4740000
+ entry 4750000
+ entry 4760000
+ entry 4770000
+ entry 4780000
+ entry 4790000
+ entry 4800000
+ entry 4810000
+ entry 4820000
+ entry 4830000
+ entry 4840000
+ entry 4850000
+ entry 4860000
+ entry 4870000
+ entry 4880000
+ entry 4890000
+ entry 4900000
+ entry 4910000
+ entry 4920000
+ entry 4930000
+ entry 4940000
+ entry 4950000
+ entry 4960000
+ entry 4970000
+ entry 4980000
+where am I?
+(int) 0

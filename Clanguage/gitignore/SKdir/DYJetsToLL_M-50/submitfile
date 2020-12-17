@@ -1,0 +1,21 @@
+universe = vanilla
+Executable = /uscms/home/skim2/nobackup/SK_research_scripts/temp/runjob.sh
+Should_Transfer_Files = YES 
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = /uscms/home/skim2/nobackup/SK_research_scripts/temp/drawer.C,/uscms/home/skim2/nobackup/SK_research_scripts/temp/cms_setup.tar.gz,/uscms/home/skim2/nobackup/SK_research_scripts/temp/Tracklists/DYJetsToLL_M-50.list
+notify_user = skim2@cern.ch
+x509userproxy = /uscms/home/skim2/x509up_u54978
+
+Output = logs/runanalyzer_$(Cluster)_$(Process).stdout
+Error  = logs/runanalyzer_$(Cluster)_$(Process).stderr
+Log    = logs/runanalyzer_$(Cluster)_$(Process).log
+
+Arguments = DYJetsToLL_M-50 . 0 400 0
+Queue
+
+Arguments = DYJetsToLL_M-50 . 1 400 400
+Queue
+
+Arguments = DYJetsToLL_M-50 . 2 400 800
+Queue
+
