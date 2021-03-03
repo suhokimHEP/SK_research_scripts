@@ -1,0 +1,128 @@
+universe = vanilla
+Executable = /uscms/home/skim2/nobackup/SignalProduction/SK_research_scripts/Clanguage/P2draw.sh
+Should_Transfer_Files = YES 
+Transfer_Input_Files = /uscms/home/skim2/nobackup/SignalProduction/SK_research_scripts/Clanguage/P2draw.C,/uscms/home/skim2/nobackup/SignalProduction/SK_research_scripts/Clanguage/cms_setup.tar.gz
+WhenToTransferOutput = ON_EXIT
+notify_user = skim2@cern.ch
+x509userproxy = /uscms/home/skim2/x509up_u54978
+
+Output = logs/runanalyzer_$(Cluster)_$(Process).stdout
+Error  = logs/runanalyzer_$(Cluster)_$(Process).stderr
+Log    = logs/runanalyzer_$(Cluster)_$(Process).log
+
+Arguments = 104
+Queue
+
+Arguments = 107
+Queue
+
+Arguments = 109
+Queue
+
+Arguments = 112
+Queue
+
+Arguments = 114
+Queue
+
+Arguments = 117
+Queue
+
+Arguments = 119
+Queue
+
+Arguments = 122
+Queue
+
+Arguments = 125
+Queue
+
+Arguments = 128
+Queue
+
+Arguments = 131
+Queue
+
+Arguments = 134
+Queue
+
+Arguments = 137
+Queue
+
+Arguments = 140
+Queue
+
+Arguments = 143
+Queue
+
+Arguments = 146
+Queue
+
+Arguments = 150
+Queue
+
+Arguments = 153
+Queue
+
+Arguments = 157
+Queue
+
+Arguments = 161
+Queue
+
+Arguments = 164
+Queue
+
+Arguments = 168
+Queue
+
+Arguments = 172
+Queue
+
+Arguments = 176
+Queue
+
+Arguments = 180
+Queue
+
+Arguments = 184
+Queue
+
+Arguments = 189
+Queue
+
+Arguments = 193
+Queue
+
+Arguments = 198
+Queue
+
+Arguments = 202
+Queue
+
+Arguments = 207
+Queue
+
+Arguments = 212
+Queue
+
+Arguments = 217
+Queue
+
+Arguments = 223
+Queue
+
+Arguments = 228
+Queue
+
+Arguments = 233
+Queue
+
+Arguments = 239
+Queue
+
+Arguments = 245
+Queue
+
+Arguments = 251
+Queue
