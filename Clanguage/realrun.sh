@@ -1,8 +1,8 @@
 #!/bin/bash
 
 samples=( \ 
- "140"      \
-# "DYJetsToLL_M-50"      \
+# "140"      \
+ "WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8"      \
 # "ZH_HToSSTobbbb_ZToLL_MH-125_MS-15_ctauS-100"      \
 # "TTJets"      \
 ) 
@@ -18,11 +18,12 @@ int=(128 180 193 245)
 #  #root -l -b -q 'ratio161718.C()'
 #  #root -l -b 'P2draw.C('${intval}')'
 #  #root -l 'drawer.C('\""${sample}"\"', '\""${lists}"\"', '\""${output}"\"','\""${number}"\"','\""${atplace}"\"')'
+ root -l 'ROIdrawer.C('\""${sample}"\"', '\""${lists}"\"', '\""${output}"\"','\""${number}"\"','\""${atplace}"\"')'
 #  #root -l 'drawer.C('\""${sample}"\"', '\""${lists}"\"', '\""${output}"\"','"${number}"','\""${atplace}"\"')'
 #  #root -l 'drawer.C('"${sample}"', '"${lists}"', '"${output}"','"${number}"','"${atplace}"')'
 # #root -l 'main.C('\""${region}"\"', '"${dolog}"', '"${doHIP}"', '"${useEOS}"', '\""${description}"\"')'
 #done
-for value in ${int[@]} #int
-do
- root -l -b -q 'P2draw.C('${value}')'
-done
+#for value in ${int[@]} #int
+#do
+# root -l -b -q 'P2draw.C('${value}')'
+#done

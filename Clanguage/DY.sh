@@ -21,7 +21,6 @@ for region in ${regions[@]}
 do
  for year in ${yrs[@]}
  do
-    #root -l -b -q  'DY_table_stackedRegion.C('\""${region}"\"', '"${dolog}"', '\""${description}"\"','\""${year}"\"'  )'
-    root -l -b -q  'edit_table_stackedRegion.C('\""${region}"\"', '"${dolog}"', '\""${description}"\"','\""${year}"\"'  )'
+    root -l -b -q  'DY_table_stackedRegion.C('\""${region}"\"', '"${dolog}"', '\""${description}"\"','\""${year}"\"'  )'
  done
 done
