@@ -2,7 +2,8 @@ from __future__ import division
 from ROOT import *
 import math
 gROOT.ForceStyle(kTRUE)
-TV="HLT_Mu7_IP4_part"
+label = ['1','10','100','1000','10E4']
+TV="HLT_Mu12_IP6_part"
 c1 = TCanvas( 'c1', 'Histogram Drawing Options', 200, 10, 700, 900 )
 gPad.SetGrid()
 gPad.SetTickx()
@@ -101,7 +102,10 @@ tempMS55ct1000 = llpMS55ct1000.GetHistogram()
 TrigMS55.Fill(4,tempMS55ct1000.GetMean())
 
 TrigMS15.Draw("histp0L")
+for i in range (1,6):
+        TrigMS15.GetXaxis().SetBinLabel(i+1,label[i-1])
 TrigMS15.SetTitle("")
+TrigMS15.SetTitle("%s"%TV)
 TrigMS15.GetXaxis().SetTitle("c#tau[mm]")
 TrigMS15.GetYaxis().SetTitle("B-Parking Trigger Efficiency")
 TrigMS15.GetYaxis().SetTitleOffset(1.5)
@@ -114,7 +118,7 @@ TrigMS40.SetLineColor(3)
 TrigMS55.Draw("histp0L same")
 TrigMS55.SetLineColor(4)
 
-legend = TLegend(0.5,0.55,0.8,0.75) 		
+legend = TLegend(0.6,0.55,0.9,0.75) 		
 legend.SetBorderSize(0)
 legend.AddEntry(TrigMS7,"m_{s} = 7GeV","l")
 legend.AddEntry(TrigMS15,"m_{s} = 15GeV","l")
@@ -150,5 +154,5 @@ extra.SetTextFont(42)
 extra.DrawLatexNDC(0.38,0.78,"pp #rightarrow ggH #rightarrow GluGluH(ss); s #rightarrow #tau#bar{#tau}")
 c1.Modified()
 c1.Update()
-c1.SaveAs("TrigEff.pdf")
+c1.SaveAs("TrigEff_%s.pdf"%TV)
 k=raw_input('Press ENTER to exit')
